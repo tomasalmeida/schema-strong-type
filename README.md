@@ -1,4 +1,4 @@
-# Confluent Data Contract
+# Confluent Schema Registry - using references
 
 ## Pre-requisites
 
@@ -74,7 +74,3 @@ Control center is available under http://localhost:9021
     docker-compose down -v && docker system prune -f
     cd ..
 ```
-
-References:
-- Code
-  -
