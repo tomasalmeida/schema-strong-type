@@ -1,0 +1,24 @@
+{
+  "name": "Client",
+  "namespace": "pro.tomasalmeida",
+  "type": "record",
+  "doc": "Client data",
+  "fields": [
+    {
+      "name": "id",
+      "type": "pro.tomasalmeida.ClientId"
+    },
+    {
+      "name": "firstName",
+      "type": "string"
+    },
+    {
+      "name": "LastName",
+      "type": "string"
+    },
+    {
+      "name": "countryCode",
+      "type": "string"
+    }
+  ]
+}

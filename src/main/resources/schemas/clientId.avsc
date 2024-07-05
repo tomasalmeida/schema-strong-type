@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "ClientId",
+  "namespace": "pro.tomasalmeida",
+  "fields": [
+    {
+      "name": "value",
+      "type": "string"
+    }
+  ]
+}
