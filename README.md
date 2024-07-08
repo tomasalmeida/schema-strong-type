@@ -42,7 +42,7 @@ Control center is available under http://localhost:9021
   jq -n --rawfile schema src/main/resources/schemas/client.avsc '{schema: $schema, 
   references: [
     {
-      "name": "pro.tomasalmeida",
+      "name": "pro.tomasalmeida.ClientId",
       "subject": "clientId",
       "version": 1
     }
