@@ -6,7 +6,7 @@
       "mode": "WRITE",
       "type": "CEL",
       "doc": "Client Id is composed by 'u-' and five lowercase characters or numbers",
-      "expr": "message.id.matches(r'^u-[a-z0-9]{5}$')",
+      "expr": "message.value.matches(r'^u-[a-z0-9]{5}$')",
       "onFailure": "ERROR"
     }
   ]
